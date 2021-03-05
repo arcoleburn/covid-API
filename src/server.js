@@ -1,19 +1,17 @@
-'use strict';
+"use strict";
 
-const knex = require('knex');
-const app = require('./app');
+const knex = require("knex");
+const app = require("./app");
 
-const { PORT, DATABASE_URL } = require('./config');
+const { PORT, DATABASE_URL } = require("./config");
 const NODE_ENV = process.env.NODE_ENV;
 
 const db = knex({
-  client: 'pg',
+  client: "pg",
   connection: DATABASE_URL,
 });
 
-app.set('db', db);
+app.set("db", db);
 app.listen(PORT, () => {
-  console.log(
-    `Server listening in ${NODE_ENV}`
-  );
+  console.log(`Server listening in ${NODE_ENV}`);
 });
