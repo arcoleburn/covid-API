@@ -22,6 +22,11 @@ app.get('/', (req, res) => {
   res.send(stateData);
 });
 
+app.get('/:state', (req, res)=>{
+  let state = stateData.filter(x=> x.abbr == req.params.state)
+  res.send(state)
+})
+
 app.use(function errorHandler(error, req, res, next) {
   let response;
   if (process.env.NODE_ENV === 'production') {
