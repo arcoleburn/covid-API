@@ -1,6 +1,6 @@
 'use strict';
 
-const lastGeneralUpdate = '03-03-21'
+const lastGeneralUpdate = '03-03-2021'
 
 //if you update/check ALL of the state data, please update the variable above
 
@@ -46,10 +46,10 @@ const stateData = [
         name: '2',
         criteria: [{ age: 16 }],
         current: false,
-        effectiveDate: '05-15-21',
+        effectiveDate: '05-15-2021',
       },
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
   },
   {
     name: 'ALASKA',
@@ -104,7 +104,7 @@ const stateData = [
         effectiveDate: 'TBD',
       },
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
   },
   {
     name: 'ARIZONA',
@@ -152,7 +152,7 @@ const stateData = [
           { age: 16, living: 'congregate' },
         ],
         current: false,
-        effectiveDate: '04-15-21',
+        effectiveDate: '04-15-2021',
       },
       {
         name: '2',
@@ -162,10 +162,10 @@ const stateData = [
           },
         ],
         current: false,
-        effectiveDate: '06-15-21',
+        effectiveDate: '06-15-2021',
       },
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
   },
   {
     name: 'ARKANSAS',
@@ -202,7 +202,7 @@ const stateData = [
         effectiveDate: 'TBD',
       },
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
   },
   {
     name: 'CALIFORNIA',
@@ -235,10 +235,10 @@ const stateData = [
         name: '1C',
         criteria: [{ age: 16, medicalCondition: 1 }],
         current: false,
-        effectiveDate: '03-15-21',
+        effectiveDate: '03-15-2021',
       },
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
   },
   {
     name: 'COLORADO',
@@ -303,7 +303,7 @@ const stateData = [
         effectiveDate: 'TBD'
       },
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
   },
   {
     name: 'CONNECTICUT',
@@ -344,7 +344,7 @@ const stateData = [
           {age: 45}
         ],
         current: false,
-        effectiveDate: '03-22-21'
+        effectiveDate: '03-22-2021'
       },
       {
         name: '3',
@@ -352,7 +352,7 @@ const stateData = [
           {age: 35}
         ],
         current: false,
-        effectiveDate: '04-12-21'
+        effectiveDate: '04-12-2021'
       },
       {
         name: '4',
@@ -360,10 +360,10 @@ const stateData = [
           {age: 16}
         ],
         current: false,
-        effectiveDate: '05-03-21'
+        effectiveDate: '05-03-2021'
       }
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
   },
   {
     name: 'DELAWARE',
@@ -413,7 +413,7 @@ const stateData = [
         effectiveDate: 'TBD'
       }
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
   },
   {
     name:'WASHINGTON DC',
@@ -457,7 +457,7 @@ const stateData = [
         effectiveDate: 'TBD'
       }
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
   },
   {
     name: 'FLORIDA',
@@ -481,7 +481,7 @@ const stateData = [
       current: true
     } 
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
   },
   {
     name: 'GEORGIA',
@@ -514,7 +514,7 @@ const stateData = [
         effectiveDate: 'TBD'
       }
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
   },
   {
     name: 'HAWAII',
@@ -547,16 +547,16 @@ const stateData = [
           {occupation: 'essential'}
         ],
         current: false,
-        effectiveDate: '04-15-21'
+        effectiveDate: '04-15-2021'
       },
       {
         name: '2',
         criteria: [{age: 16}],
         current: false,
-        effectiveDate: '06-20-21'
+        effectiveDate: '06-20-2021'
       }
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
   },
   {
     name: 'IDAHO',
@@ -580,7 +580,7 @@ const stateData = [
           {occupation: ['essential']}
         ],
         current: false,
-        effectiveDate: '04-01-21'
+        effectiveDate: '04-01-2021'
       },
       {
         name: '3',
@@ -588,7 +588,7 @@ const stateData = [
           {age: 16, medicalCondition: 1}
         ],
         current: false,
-        effectiveDate: '04-20-21'
+        effectiveDate: '04-20-2021'
       },
       {
         name:'4',
@@ -596,10 +596,10 @@ const stateData = [
           {age: 16}
         ],
         current: false,
-        effectiveDate: '05-15-21'
+        effectiveDate: '05-15-2021'
       }
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
   },
   {
     name: 'US VIRGIN ISLANDS',
@@ -642,7 +642,7 @@ const stateData = [
         effectiveDate: 'TBD'
       }
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
   },
   {
     name: 'ILLINOIS',
@@ -676,7 +676,7 @@ const stateData = [
         effectiveDate: 'TBD'
       }
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
   },
   {
     name: 'INDIANA',
@@ -704,7 +704,7 @@ const stateData = [
         current: true
       }
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
   },
   {
     name: 'IOWA',
@@ -731,7 +731,7 @@ const stateData = [
         current: true
       }
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
   },
   {
     name: 'KANASAS',
@@ -770,7 +770,7 @@ const stateData = [
           {age: 16, medicalCondition: 1},
         ],
         current: false,
-        effectiveDate: '05-01-21'
+        effectiveDate: '05-01-2021'
       },
       {
         name: '5',
@@ -778,10 +778,10 @@ const stateData = [
           {age: 16}
         ],
         current: false,
-        effectiveDate: '06-01-21'
+        effectiveDate: '06-01-2021'
       }
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
 
   },
   {
@@ -833,7 +833,617 @@ const stateData = [
         effectiveDate: 'TBD'
       }
     ],
-    lastUpdate: '03-03-21'
+    lastUpdate: '03-03-2021'
+  },
+  {
+    name: 'LOUISIANA',
+    abbr: 'LA',
+    fullPlan: false,
+    fullTimeline: false,
+    url: 'https://ldh.la.gov/covidvaccine/',
+    phases:[
+      {
+        name: '1A',
+        criteria: [
+          {occupation: ['frontline healthcare', 'LTC',]},
+          {living: 'LTC'}
+        ],
+        current: true
+      },
+      {
+        name: '1B1',
+        criteria:[
+          {age: 65},
+          {occupation: ['healthcare', 'first responder', 'education']},
+          {age: 55, medicalCondition: 1},
+          {special: 'pregnant'}
+        ],
+        current: true
+      },
+      {
+        name: '1B2',
+        criteria: [
+          {occupation: ['frontline essential', 'essential', 'higher ed']}
+        ],
+        current: true,
+        effectiveDate: 'TBD'
+      },
+    ],
+    lastUpdate: '03-04-2021'
+  },
+  {
+    name: 'MAINE',
+    abbr: 'ME',
+    fullPlan: true,
+    fullTimeline: true,
+    url: 'https://www.maine.gov/covid19/vaccines',
+    phases: [
+      {
+        name: '1A',
+        criteria: [
+          {occupation: ['frontline healthcare', 'LTC', 'first responder']},
+          {living: 'LTC'}
+        ],
+        current: true
+      },
+      {
+        name: '1B1',
+        criteria: [
+          {age: 70},
+          {age: 16, medicalCondition: 1},
+          {occupation: 'frontline essential'}
+        ],
+        current: true
+      },
+      {
+        name: '1B2',
+        criteria:[
+          {age: 60}
+        ],
+        current: true
+      },
+      {
+        name: '1B3',
+        criteria :[
+          {age: 50}
+        ],
+        current: false,
+        effectiveDate: '04-01-2021'
+      },
+      {
+        name: '1C1',
+        criteria: [
+          {age: 40},
+          {occupation: 'essential'}
+        ],
+        current: false,
+        effectiveDate: '05-01-2021'
+      },
+       {
+         name: '1C2',
+         criteria: [
+           {age: 30}
+         ],
+         current: false,
+         effectiveDate: '06-01-2021'
+       },
+       {
+         name: '2',
+         criteria: [
+           {age: 16}
+         ],
+         current: false,
+         effectiveDate: '07-01-2021'
+       }
+    ],
+    lastUpdate: '03-04-2021'
+  },
+  {
+    name: 'MARYLAND',
+    abbr: 'MD',
+    fullPlan: true,
+    fullTimeline: false,
+    url:'https://covidlink.maryland.gov/content/vaccine/',
+    phases: [
+      {
+        name: '1A',
+        criteria: [
+          {occupation: ['healthcare', 'LTC', 'first responder']},
+          {living: 'LTC'}
+        ],
+        current: true,
+      },
+      {
+        name: '1B',
+        criteria: [
+          {age: 75},
+          {occupation: ['congregate living', 'education', 'govt essential']},
+          {special: 'developmental disability'}
+        ],
+        current: true
+      },
+      {
+        name: '1C',
+        criteria: [
+          {age: 65},
+          {occupation: 'frontline essential'}
+        ],
+        current: true,
+      },
+      {
+        name: '2',
+        criteria: [
+          {age: 16, medicalCondition: 1},
+          {occupation: 'essential'}
+        ],
+        current: false,
+        effectiveDate: 'TBD',
+      },
+      {
+        name: '3',
+        criteria:[
+          {age: 16}
+        ],
+        current: false,
+        effectiveDate: 'TBD'
+      }
+    ],
+    lastUpdate: '03-04-2021'
+  },
+  {
+    name: 'MASSACHUSETTS',
+    abbr: 'MA',
+    fullPlan: true,
+    fullTimeline: true, 
+    url: 'https://www.mass.gov/info-details/massachusetts-covid-19-vaccination-phases',
+    phases: [
+      {
+        name: '1',
+        criteria: [
+          {occupation: ['first responder', 'healthcare', 'LTC']},
+          {living: 'LTC'}
+        ],
+        current: true,
+      },
+      {
+        name: '2 Group 1',
+        criteria: [
+          {age: 75}],
+          current: true,
+        },
+        {
+          name: '2 Group 2',
+          criteria: [
+            {age: 65},
+            {age: 16, medicalCondition: 2},
+            {occupation: 'congregate living'},
+            {living: 'congregate living'}
+          ],
+          current: true
+        },
+        {
+          name: '2 Group 3',
+          criteria: [
+            {occupation: ['education', 'frontline essential', 'essential']}
+          ],
+          current: false,
+          effectiveDate: '03-15-2021'
+        },
+        {
+          name: '2 Group 4',
+          criteria: [
+            {age: 16, medicalCondition: 1}
+          ],
+          current: false, 
+          effectiveDate: '04-01-2021'
+        },
+        {
+          name: '3',
+          criteria: [
+            {age: 16}
+          ],
+          current: false, 
+          effectiveDate: '04-15-2021'
+        }
+      ],
+      lastUpdate: '03-04-2021'
+  },
+  {
+    name: 'MICHIGAN',
+    abbr: 'MI',
+    fullPlan: true,
+    fullTimeline: true,
+    url: 'https://www.michigan.gov/documents/coronavirus/MI_COVID-19_Vaccination_Prioritization_Guidance_710349_7.pdf',
+    phases: [
+      {
+        name: '1A',
+        criteria: [{occupation: ['healthcare', 'LTC']}, {living: 'LTC'}],
+        current: true
+      },
+      {
+        name: '1B1',
+        criteria: [
+          {age: 75},
+          {occupation: ['first responder', 'education', 'corrections']},
+        ],
+        current: true,
+      },
+      {
+        name: '1B2',
+        criteria: [
+          {occupation: 'frontline essential'}
+        ],
+        current: true
+      },
+      {
+        name: '1C1',
+        criteria: [
+          {age: 65}
+        ],
+        current: true
+      },
+       {
+         name: '1C2',
+         criteria: [
+           {age: 16, medicalCondition: 1},
+           {occupation: 'essential'}
+         ],
+         current: false,
+         effectiveDate: '05-01-2021'
+       },
+       {
+         name: '2',
+         criteria:[
+           {age: 16}
+         ],
+         current: false,
+         effectiveDate: '07-01-2021'
+       }
+    ],
+    lastUpdate: '03-04-2021'
+  },
+  {
+    name: 'MINNESOTA',
+    abbr: 'MN',
+    fullPlan: true,
+    fullTimeline: false,
+    url: 'https://www.health.state.mn.us/diseases/coronavirus/vaccine/plan.html',
+    phases:[
+      {
+        name: '1A',
+        criteria: [
+          {occupation: ['healthcare', 'LTC', 'first responder', 'pandemic response']},
+          {living: 'LTC'}
+        ],
+        current: true
+      },
+      {
+        name: '1B1',
+        criteria: [
+          {age: 65},
+          {occupation: 'education'}
+        ],
+        current: true,
+      },
+      {
+        name: '1B2',
+        criteria: [
+          {age: 16, special: 'rare/ high risk condition'}
+        ],
+        current: false,
+        effectiveDate: 'TBD'
+      },
+      {
+        name: '1B3',
+        criteria: [
+          {age: 45, medicalCondition: 1},
+          {age: 16, medicalCondition: 2},
+          {age: 50, living: 'multigenerational household'},
+          {occupation: 'frontline essential'}
+        ],
+        current: false,
+        effectiveDate: 'TBD'
+      },
+      {
+        name: '1B4',
+        criteria: [
+          {age: 16, medicalCondition: 1},
+          {age: 50}
+        ],
+        current: false,
+        effectiveDate: 'TBD'
+      },
+      {
+        name: '1C',
+        criteria:[
+          {occupation: 'essential'}
+        ],
+        current: false,
+        effectiveDate: 'TBD'
+      },
+       {
+         name: '2',
+         criteria: [
+           {age: 16}
+         ],
+         current: false,
+         effectiveDate: 'TBD'
+       }
+    ],
+    lastUpdate: '03-04-2021'
+  },
+  {
+    name: 'MISSISSIPPI',
+    abbr: 'MS',
+    fullPlan: false,
+    fullTimeline: false,
+    url: 'https://msdh.ms.gov/msdhsite/_static/14,22816,420,976.html',
+    phases: [
+      {
+        name: 'N/A',
+        criteria:[
+          {age: 50},
+          {age: 16, medicalCondition: 1},
+          {occupation: ['first responder', 'healthcare', 'LTC', 'education',]},
+          {living: 'LTC'}
+        ]
+      }
+    ],
+    lastUpdate: '03-04-2021'
+  },
+  {
+    name: 'MISSOURI',
+    abbr: 'MO',
+    fullPlan: true,
+    fullTimeline: false,
+    url: 'https://covidvaccine.mo.gov/',
+    phases: [
+      {
+        name: '1A',
+        criteria: [
+          {occupation: ['healthcare', 'LTC']},
+          {living: 'LTC'}
+        ],
+        current: true
+      },
+      {
+        name: '1B1',
+        criteria: [
+          {occupation: 'first responder'}
+        ],
+        current: true
+      },
+      {
+        name: '1B2',
+        criteria: [
+          {age: 65},
+          {age: 16, medicalCondition: 1},
+
+        ],
+        current: true
+      },
+      {
+        name: '1B3',
+        criteria:[
+          {occupation: 'frontline essential'}
+        ],
+        current: false,
+        
+        effectiveDate: 'TBD'
+      },
+       {
+         name: '2',
+         criteria: [
+           {occupation: ['essential', 'govt', 'higher ed']},
+           {special: 'disproportionately affected populations'},
+           {living: 'homeless'}
+         ],
+         current: false,
+         effectiveDate: 'TBD'
+       },
+       {
+         name: '3',
+         criteria:[
+           {age: 16}
+         ],
+         current: false,
+         effectiveDate: 'TBD'
+       }
+    ],
+    lastUpdate: '03-04-2021'
+  },
+  {
+    name: 'MONTANA',
+    abbr: 'MT',
+    fullPlan: true,
+    fullTimeline: true,
+    url: 'https://dphhs.mt.gov/Portals/85/Documents/Coronavirus/COVID-19VaccineAllocationPlan.pdf',
+    phases: [
+      {
+        name: '1A',
+        criteria: [
+          {occupation: ['healthcare', 'LTC']},
+          {living: 'LTC'}
+        ],
+        current: true,
+      },
+      {
+        name: '1B',
+        criteria: [
+          {age: 75},
+          {living: 'congregate living'},
+          {occupation: ['congregate living', 'frontline essential']},
+          {special: 'high risk populations'}
+
+        ],
+        current: true
+      },
+      {
+        name: '1C',
+        criteria: [
+          {age: 65},
+          {age: 16, medicalCondition: 1},
+          {occupation: 'essential'},
+        ],
+        current: false,
+        effectiveDate: '03-15-2021'
+      },
+      {
+        name: '2',
+        criteria: [
+          {age: 16}
+        ],
+        current: false,
+        effectiveDate: '07-01-2021'
+      }
+    ],
+    lastUpdate: '03-04-2021'
+  },
+  {
+    name: 'NEBRASKA',
+    abbr: 'NE',
+    fullPlan: true,
+    fullTimeline: true,
+    url: 'https://dhhs.ne.gov/Pages/COVID-19-Vaccine-Information.aspx',
+    phases: [
+      {
+        name: '1A',
+        criteria:[
+          {occupation: ['healthcare', 'LTC']},
+          {living: 'LTC'}
+        ],
+        current: true
+      },
+      {
+        name: '1B',
+        criteria: [
+          {age: 65},
+          {occupation: ['frontline essential', 'essential']}
+        ],
+        current: true
+      },
+      {
+        name: '1C',
+        criteria: [
+          {occupation: 'congregate living'},
+          {living: 'congregate living'}
+        ],
+        current: false,
+        effectiveDate: '03-15-2021'
+      },
+      {
+        name: '2A',
+        criteria: [
+          {age: 50}
+        ],
+        current: false,
+        effectiveDate: '04-01-2021'
+      },
+      {
+        name: '2B',
+        criteria: [
+          {age: 16}
+        ],
+        current: false,
+        effectiveDate: '05-01-2021'
+      }
+    ],
+    lastUpdate: '03-04-2021'
+  },
+  {
+    name: 'NEVADA',
+    abbr: 'NV',
+    fullPlan: true,
+    fullTimeline: false,
+    url:'https://www.immunizenevada.org/county-specific-covid-19-vaccine-plan',
+    phases: [
+      {
+        name: '1',
+        criteria: [
+          {occupation: ['healthcare', 'LTC', 'frontline essential']},
+          {age: 65},
+          {age: 16, medicalCondition: 1}
+        ],
+        current: true
+      },
+      {
+        name: '2',
+        criteria: [
+          {occupation: 'essential'}
+        ],
+        current: false,
+        effectiveDate: 'TBD'
+      },
+      {
+        name: '3',
+        criteria: [
+          {age: 16}
+        ],
+        current: false,
+        effectiveDate: 'TBD'
+      }
+    ],
+     lastUpdate: '03-04-2021'
+  },
+  {
+    name: 'NEW HAMPSHIRE',
+    abbr: 'NH',
+    fullPlan: true, 
+    fullTimeline: true,
+    url: 'dhhs.nh.gov/dphs/cdcs/covid19/documents/covid19-vaccine-allocation-plan-summary.pdf',
+    phases: [
+      {
+        name: '1A',
+        criteria: [
+          {occupation: ['first responder', 'healthcare', 'LTC']},
+          {living: 'LTC'}
+        ],
+        current: true
+      },
+      {
+        name: '1B',
+        criteria: [
+          {age: 65},
+          {age: 16, medicalCondition: 2},
+          {occupation: 'congregate living'},
+          {living: 'congregate living'},
+        ],
+        current: true,
+      },
+      {
+        name: '2A',
+        criteria: [
+          {occupation: 'education'}
+        ],
+        current: true
+      },
+      {
+        name: '2B',
+        criteria: [
+          {age: 50}
+        ],
+        current: false,
+        effectiveDate: '04-01-2021'
+      },
+      {
+        name: '3A',
+        criteria: [
+          {age: 16, medicalCondition: 1}
+        ],
+        current: false,
+        effectiveDate: '05-01-2021'
+      },
+      {
+        name: '3B',
+        criteria: [
+          {age: 16}
+        ],
+        current: false,
+        effectiveDate: '06-01-2021'
+      }
+    ],
+    lastUpdate: '03-04-2021'
   }
+
 
 ];
