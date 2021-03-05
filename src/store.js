@@ -2446,3 +2446,5 @@ const stateData = [
     lastUpdate: '03-05-2021',
   },
 ];
+
+module.exports = {stateData}
