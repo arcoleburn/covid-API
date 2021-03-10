@@ -8,7 +8,7 @@ const helmet = require('helmet');
 const { NODE_ENV } = require('./config');
 
 const { stateData } = require('./store');
-
+const eligibilityRouter = require('./eligibilityRouter/eligibility-router');
 const app = express();
 
 const morganOption = NODE_ENV === 'production' ? 'tiny' : 'common';
@@ -17,10 +17,12 @@ app.use(morgan(morganOption));
 app.use(helmet());
 app.use(cors());
 
+
+app.use('/eligible', eligibilityRouter);
+
 app.get('/', (req, res) => {
   res.send(stateData);
 });
-
 app.get('/:state', (req, res) => {
   let state = stateData.filter(
     (x) =>
@@ -36,7 +38,7 @@ app.get('/:state/fullplan', (req, res) => {
       x.abbr.toLowerCase() == req.params.state.toLowerCase() ||
       x.name.toLowerCase() == req.params.state.toLowerCase()
   );
-  console.log(state)
+  console.log(state);
   res.send(state[0].fullPlan);
 });
 

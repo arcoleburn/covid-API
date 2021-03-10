@@ -100,9 +100,13 @@ const stateData = [
       {
         name: '1C',
         criteria: [{ age: 16, medicalCondition: 1 }],
-        current: false,
-        effectiveDate: 'TBD',
+        current: true,
       },
+      {
+        name: '2',
+        criteria: [{age: 16}],
+        current: true
+      }
     ],
     lastUpdate: '03-03-2021',
   },
