@@ -7,7 +7,7 @@ const cors = require('cors');
 const helmet = require('helmet');
 const { NODE_ENV } = require('./config');
 
-const {stateData} = require('./store');
+const { stateData } = require('./store');
 
 const app = express();
 
@@ -17,15 +17,28 @@ app.use(morgan(morganOption));
 app.use(helmet());
 app.use(cors());
 
-
 app.get('/', (req, res) => {
   res.send(stateData);
 });
 
-app.get('/:state', (req, res)=>{
-  let state = stateData.filter(x=> x.abbr == req.params.state)
-  res.send(state)
-})
+app.get('/:state', (req, res) => {
+  let state = stateData.filter(
+    (x) =>
+      x.abbr.toLowerCase() == req.params.state.toLowerCase() ||
+      x.name.toLowerCase() == req.params.state.toLowerCase()
+  );
+  res.send(state);
+});
+
+app.get('/:state/fullplan', (req, res) => {
+  let state = stateData.filter(
+    (x) =>
+      x.abbr.toLowerCase() == req.params.state.toLowerCase() ||
+      x.name.toLowerCase() == req.params.state.toLowerCase()
+  );
+  console.log(state)
+  res.send(state[0].fullPlan);
+});
 
 app.use(function errorHandler(error, req, res, next) {
   let response;
