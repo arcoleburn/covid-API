@@ -3,6 +3,8 @@
 ## Overview 
 The rollout of the COVID-19 Vaccines in the US, while guided by the CDC and the Federal Government, has largely been left up to the individual states. This API was created to serve a single source for information on the vaccine rollout across the country
 
+The API can be accessed at: https://immense-mesa-59678.herokuapp.com/
+
 
 ## Current Resources
 Currently, the API only provides the raw data regarding vaccine rollout. We have plans to add much more functionality and information including: 
